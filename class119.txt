@@ -1,0 +1,28 @@
+Decision Tree : 
+is a machine learning algorithm (supervised learning)
+whereas clustering (unsupervised learning)
+
+machine learning : it is a branch of AI and computer science which focuses on the use of data and algorithms to imitate the way the 
+humans learn, gradually improving it's accuracy.
+
+root node (Decision Node) : Represents entire population 
+this is the point where the population gets divide into 2 or more groups 
+
+internal node : Like a root node but it does not contain the entire population we further divide our data into more groups 
+from here 
+
+leaf node : it is the one that Represents the final outcome 
+
+
+from the images given we can understand that students sleeping less than 8 hours and if the exam time is in the morning they fail 
+here decision is made on the basis of the number of hours the student sleep 
+
+how do we split the data 
+
+for this we have something known as attribut selection meaasures (ASM)
+it is used for selecting and spliting criteria that splits the data in the best possible manner 
+it provides rank to each feature by explaining the given datasheet 
+the feature with the best rank gets selected as the spilting attribute
+
+it starts building a tree structure by repeating this process recursively for each child (internal node) 
+until reaches the final outcome (leaf Node)
